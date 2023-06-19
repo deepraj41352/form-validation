@@ -1,0 +1,47 @@
+body{
+    background-color:  aquamarine;
+}
+.mainCondiv{
+    background-color: #fff;
+}
+.formCon input {
+    padding: 10px;
+    border: 1px solid black;
+    width: calc(100% - 20px);
+    border-radius: 4px;
+    display: block;
+
+}
+
+.inputCon{
+    margin: 10px;
+}
+.mainCondiv h1 {
+    padding-left: 0.67em;
+    padding-right: 0.67em;
+    text-align: center;
+    color: darkcyan;
+}
+.inputCon button{
+    padding: 10px;
+    border: 1px solid darkcyan;
+    width: 100%;
+    border-radius: 4px;
+    background-color: darkcyan;
+    color: #fff;
+    font-weight: bolder;
+}
+.inputCon button:hover{
+    background-color: transparent;
+    color: darkcyan;
+    font-weight: bolder;
+    border: 1px solid darkcyan;
+}
+.inputCon input:focus{
+    outline-color: darkcyan;
+} 
+.inputCon span{
+    color: red;
+    font-size: 12px;
+    align-items: start;
+}
